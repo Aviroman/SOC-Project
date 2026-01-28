@@ -1,0 +1,84 @@
+2026-01-26 08:31:49 WARNING no functional input modules!
+2026-01-26 08:31:49 WARNING no routes defined!
+2026-01-26 08:31:49 INFO nxlog-ce-3.2.2329 started
+2026-01-26 09:17:20 WARNING stopping nxlog service
+2026-01-26 09:17:20 WARNING nxlog-ce received a termination request signal, exiting...
+nxlog failed to start: Expected </Select> but saw </Query> at C:\Program Files\nxlog\conf\nxlog.conf:23
+
+nxlog failed to start: Expected </Select> but saw </Query> at C:\Program Files\nxlog\conf\nxlog.conf:23
+
+nxlog failed to start: Expected </Select> but saw </Query> at C:\Program Files\nxlog\conf\nxlog.conf:23
+
+nxlog failed to start: Expected </Select> but saw </Query> at conf\nxlog.conf:23
+
+nxlog failed to start: Expected </Select> but saw </Query> at conf\nxlog.conf:23
+
+2026-01-26 09:28:08 ERROR Invalid OutputType 'Syslog_RFC3164' at conf\nxlog.conf:28
+2026-01-26 09:28:08 ERROR module 'out_syslog' has configuration errors, not adding to route 'r1' at conf\nxlog.conf:36
+2026-01-26 09:28:08 ERROR route r1 is not functional without output modules, ignored at conf\nxlog.conf:36
+2026-01-26 09:28:08 WARNING no routes defined!
+2026-01-26 09:28:08 WARNING not starting unused module in_eventlog
+2026-01-26 09:28:08 WARNING not starting unused module out_syslog
+2026-01-26 09:28:08 INFO nxlog-ce-3.2.2329 started
+2026-01-26 09:36:48 ERROR Couldn't parse Exec block at conf\nxlog.conf:28; couldn't parse statement at line 28, character 28 in conf\nxlog.conf; procedure 'to_Syslog()' does not exist or takes different arguments
+2026-01-26 09:36:48 ERROR module 'out_syslog' has configuration errors, not adding to route 'r1' at conf\nxlog.conf:36
+2026-01-26 09:36:48 ERROR route r1 is not functional without output modules, ignored at conf\nxlog.conf:36
+2026-01-26 09:36:48 WARNING no routes defined!
+2026-01-26 09:36:48 WARNING not starting unused module in_eventlog
+2026-01-26 09:36:48 WARNING not starting unused module out_syslog
+2026-01-26 09:36:48 INFO nxlog-ce-3.2.2329 started
+2026-01-26 09:39:12 INFO nxlog-ce-3.2.2329 started
+2026-01-26 09:39:44 INFO nxlog-ce-3.2.2329 started
+2026-01-26 23:40:15 INFO nxlog-ce-3.2.2329 started
+2026-01-26 23:41:07 INFO nxlog-ce-3.2.2329 started
+2026-01-26 23:43:48 WARNING stopping nxlog service
+2026-01-26 23:43:48 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-26 23:43:48 INFO nxlog-ce-3.2.2329 started
+2026-01-27 00:41:33 WARNING received a system shutdown request
+2026-01-27 00:41:33 WARNING stopping nxlog service
+2026-01-27 00:41:33 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 02:07:34 INFO nxlog-ce-3.2.2329 started
+2026-01-27 20:47:08 INFO nxlog-ce-3.2.2329 started
+2026-01-27 21:02:47 WARNING stopping nxlog service
+2026-01-27 21:02:47 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 21:02:48 ERROR module 'parse_iis' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:46
+2026-01-27 21:02:48 ERROR module 'to_json' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:46
+2026-01-27 21:02:48 INFO nxlog-ce-3.2.2329 started
+2026-01-27 21:02:48 ERROR failed to open directory: C:\inetpub\logs\LogFiles\W3SVC\: The system cannot find the path specified.  
+2026-01-27 21:02:48 WARNING Module iis_access has no input files to read
+2026-01-27 21:03:02 WARNING stopping nxlog service
+2026-01-27 21:03:02 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 21:03:03 ERROR module 'parse_iis' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:46
+2026-01-27 21:03:03 ERROR module 'to_json' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:46
+2026-01-27 21:03:03 INFO nxlog-ce-3.2.2329 started
+2026-01-27 21:03:03 ERROR failed to open directory: C:\inetpub\logs\LogFiles\W3SVC\: The system cannot find the path specified.  
+2026-01-27 21:03:03 WARNING Module iis_access has no input files to read
+2026-01-27 21:03:24 WARNING stopping nxlog service
+2026-01-27 21:03:24 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 21:03:31 ERROR module 'parse_iis' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:46
+2026-01-27 21:03:31 ERROR module 'to_json' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:46
+2026-01-27 21:03:31 INFO nxlog-ce-3.2.2329 started
+2026-01-27 21:03:31 ERROR failed to open directory: C:\inetpub\logs\LogFiles\W3SVC\: The system cannot find the path specified.  
+2026-01-27 21:03:31 WARNING Module iis_access has no input files to read
+2026-01-27 21:19:41 WARNING stopping nxlog service
+2026-01-27 21:19:41 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 21:19:46 ERROR Failed to load module from C:\Program Files\nxlog\modules\processor\pm_w3c.dll, The specified module could not be found.  ; The specified module could not be found.  
+2026-01-27 21:19:46 ERROR Couldn't parse Exec block at C:\Program Files\nxlog\conf\nxlog.conf:39; couldn't parse statement at line 39, character 19 in C:\Program Files\nxlog\conf\nxlog.conf; syntax error, unexpected ;, expecting (
+2026-01-27 21:19:46 ERROR module 'parse_iis' is not declared at C:\Program Files\nxlog\conf\nxlog.conf:62
+2026-01-27 21:19:46 ERROR module 'to_json' has configuration errors, not adding to route 'iis_route' at C:\Program Files\nxlog\conf\nxlog.conf:62
+2026-01-27 21:19:46 WARNING not starting unused module to_json
+2026-01-27 21:19:46 INFO nxlog-ce-3.2.2329 started
+2026-01-27 21:19:46 ERROR failed to open directory: C:\inetpub\logs\LogFiles\W3SVC\: The system cannot find the path specified.  
+2026-01-27 21:19:46 WARNING Module iis_access has no input files to read
+2026-01-27 21:30:54 WARNING stopping nxlog service
+2026-01-27 21:30:54 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 21:30:59 ERROR failed to open directory: C:\inetpub\logs\LogFiles\W3SVC\: The system cannot find the path specified.  
+2026-01-27 21:30:59 WARNING Module iis_access has no input files to read
+2026-01-27 21:30:59 INFO nxlog-ce-3.2.2329 started
+2026-01-27 21:34:48 WARNING stopping nxlog service
+2026-01-27 21:34:48 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-27 21:34:51 INFO nxlog-ce-3.2.2329 started
+2026-01-28 00:30:46 WARNING received a system shutdown request
+2026-01-28 00:30:46 WARNING stopping nxlog service
+2026-01-28 00:30:46 WARNING nxlog-ce received a termination request signal, exiting...
+2026-01-28 22:17:57 INFO nxlog-ce-3.2.2329 started

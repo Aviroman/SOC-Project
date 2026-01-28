@@ -1,0 +1,7 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2026-01-26 20:49:17
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2026-01-26 20:49:17 192.168.80.156 GET / - 80 - 192.168.80.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/144.0.0.0+Safari/537.36 - 200 0 0 368
+2026-01-26 20:49:17 192.168.80.156 GET /iisstart.png - 80 - 192.168.80.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/144.0.0.0+Safari/537.36 http://192.168.80.156/ 200 0 0 11
+2026-01-26 20:49:17 192.168.80.156 GET /favicon.ico - 80 - 192.168.80.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/144.0.0.0+Safari/537.36 http://192.168.80.156/ 404 0 2 56
